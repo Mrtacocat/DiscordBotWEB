@@ -454,6 +454,11 @@
     }
 }
 
+button a {
+    color:#fff;
+    text-decoration: none;
+}
+
 /* Footer CSS */
 
 .footer__container {
@@ -472,6 +477,10 @@
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
+}
+
+.footer__logo {
+    text-decoration: none;
 }
 
 .footer__links {
