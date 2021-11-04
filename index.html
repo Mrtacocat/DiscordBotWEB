@@ -11,8 +11,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="images/icon.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
-<body> <!-- fas fa-gem -->
+<body onload="autoRun()"> <!-- fas fa-gem -->
     <!-- navbar section -->
     <nav class="navbar">
         <div class="navbar__container">
@@ -22,25 +23,35 @@
                 <span class="bar"></span>
                 <span class="bar"></span>
             </div>
-            <ul class="navbar__menu">
-                <li class="navbar__item">
-                    <a href="index.html" class="navbar__links">Home</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="Help.html" class="navbar__links">Help</a>
-                </li> 
-                <li class="navbar__item">
-                    <a href="Products.html" class="navbar__links">Bots</a>
-                </li>
-                <li class="navbar__btn">
-                    <a href="https://discord.gg/qFpUdxRpGU" class="button">Become a Member</a>
-                </li>
-            </ul>
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="index.html" class="navbar__links">Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="Help.html" class="navbar__links">Help</a>
+                    </li> 
+                    <li class="navbar__item">
+                        <a href="Products.html" class="navbar__links">Bots</a>
+                    </li>
+                    <li class="navbar__btn">
+                        <a href="https://discord.gg/qFpUdxRpGU" class="button">Become a Member</a>
+                    </li>
+                </ul>
         </div>
     </nav>
 
+    
+
     <!-- hero Section-->
     <div class="main">
+        <div role="complementary" class="slide_container">
+            <img src="images/pic2.jpg" id="slideshow" class="slideshows" alt="slideshow">
+                <br/>
+            <div id="caption">
+                Music24/7
+            </div>
+                <script src="slideshow.js"></script>
+        </div>
         <div class="main__container">
             <div class="main__content">
                 <h1>DISCORD BOT</h1>
