@@ -518,6 +518,15 @@
     .services__card {
         width: 300px;
     }
+    .services__card p span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: rgba(0, 0, 0, 0.8);
+        border-radius: 1rem;
+        padding: 10px 20px;
+    }
 }
 
 button a {
