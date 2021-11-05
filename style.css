@@ -378,6 +378,36 @@
         margin: 2.5rem ;
     }
 }
+/* Help section CSS */
+
+.help__container {
+    background-color: #141414;
+    color: white;
+    padding: 20px;
+}
+
+.help_card {
+    border-style: solid;
+    border-color: white;
+    padding: 30px;
+    border-radius: 1rem;
+}
+
+.help_card h2 {
+    font-size: 2rem;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-align: center;
+}
+
+.link {
+    color: #ff8177;
+}
 
 /* Services Section CSS */
 
