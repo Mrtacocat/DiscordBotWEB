@@ -49,8 +49,8 @@
         <div class="main__container">
             <div class="main__content">
                 <h1>DISCORD BOTS</h1>
-                <h2>GUIDE</h2>
-                <p>Help getting started using discord bots</p>
+                <h2>COMMANDS</h2>
+                <p>Commands for each bot.</p>
                 <button class="main__btn"><a href="https://paypal.me/Faaku?country.x=NO&locale.x=no_NO">Support me</a></button>
             </div>
             <div class="main__img--container">
@@ -64,28 +64,44 @@
     <div class="help__container">
         <div class="help_card">
             <ol>
-                <h2>Setting up your own bot</h2><br/>
-                <li>Go to <a href="https://discord.com/developers/docs/intro" class="link">Discord Developer Tool.</a></li><br/>
-                <li>Then go to <a href="https://discord.com/developers/applications" class="link">Applications</a> on the side menu.</li><br/>
-                <li>Click on "New Application" and give it a name.</li><br/>
-                <li>Then on the settings menu click on "Bot" and "Add Bot".</li><br/>
-                <li>After you created your Bot, go over to "OAuth2" and scroll down to "OAuth2 URL Generator" <br/>
-                    then mark "Bot" and "applications.commands"(for slash commands).</li><br/>
-                <li>Once you've done that, you will get a "Bot Permissions" menu under, then mark "Administrator".</li><br/>
-                <li>Then copy the URL and paste it in your browser and select your discord server.</li><br/>
-                <li>God job! Now you have your own bot that you can do almost what ever you like it to do.</li><br/>
-                <h3 class="link" style="text-align: center;">REMEMBER! NEVER SHARE YOUR TOKEN WITH ANYONE</h3><br/>
+                <h2>Music Bot - Prefix [>] (changeable)</h2><br/>
+                <li><strong>Bassboost [None | Low | Medium | High]</strong> - Enables bass boosting audio effect - <strong>Aliases [bb, bass]</strong></li><br/> 
+                <li><strong>Bump</strong> - Moves a track to the front of the queue - <strong>Aliases [b]</strong></li><br/>
+                <li><strong>Clear</strong> - Clears the server queue - <strong>Aliases [cl, cls]</strong></li><br/>
+                <li><strong>Config</strong> - Edit the bot settings - <strong>Aliases [conf]</strong></li><br/>
+                <li><strong>Disconnect</strong> - Stop the music and leave the voice channel - <strong>Aliases [leave, exit, quit, dc, stop]</strong></li><br/>
+                <li><strong>Grab</strong> - Saves the current song to your Direct Messages - <strong>Aliases [save]</strong></li><br/>
+                <li><strong>Help [command]</strong> - Information about the bot - <strong>Aliases [command, commands, cmd]</strong></li><br/>
+                <li><strong>Invite</strong> - To invite me to your server - <strong>Aliases [inv]</strong></li><br/>
+                <li><strong>Loop</strong> - Loop the current song - <strong>Aliases [l, repeat]</strong></li><br/>
+                <li><strong>Loopqueue</strong> - Loop the whole queue - <strong>Aliases [lq, repeatqueue, rq]</strong></li><br/>
+                <li><strong>Lyrics [Song Name]</strong> - Shows the lyrics of the song searched - <strong>Aliases [ly]</strong></li><br/>
+                <li><strong>Move</strong> - Moves a track to a specified position. - <strong>Aliases [m]</strong></li><br/>
+                <li><strong>Nowplaying</strong> - See what song is currently playing - <strong>Aliases [np, nowplaying, now playing]</strong></li><br/>
+                <li><strong>Pause</strong> - Pauses the music</li><br/>
+                <li><strong>Play [song]</strong> - Play your favorite songs - <strong>Aliases [p]</strong></li><br/>
+                <li><strong>Queue</strong> - Shows all currently enqueued songs - <strong>Aliases [q]</strong></li><br/>
+                <li><strong>Remove [number]</strong> - Remove a song from the queue - <strong>Aliases [rm]</strong></li><br/>
+                <li><strong>Resume</strong> - Resumes the music</li><br/>
+                <li><strong>Search [song]</strong> - Shows a result of songs based on the search query - <strong>Aliases [se]</strong></li><br/>
+                <li><strong>Seek [time s/m/h]</time></strong> - Seek to a position in the song - <strong>Aliases [forward]</strong></li><br/>
+                <li><strong>Shuffle</strong> - Shuffles the queue - <strong>Aliases [shuff]</strong></li><br/>
+                <li><strong>Skip</strong> - Skip the current song - <strong>Aliases [s, next]</strong></li><br/>
+                <li><strong>Skipto [number]</strong> - Skip to a song in the queue - <strong>Aliases [st]</strong></li><br/>
+                <li><strong>Stats</strong> - Get information about the bot - <strong>Aliases [about, ping, info]</strong></li><br/>
+                <li><strong>Volume [volume]</strong> - Check or change the current volume - <strong>Aliases [vol, v]</strong></li><br/>
+                <li><strong>Youtube</strong> - Starts a YouTube Together session - <strong>Aliases [yt]</strong></li><br/>
+                <h3 class="link" style="text-align: center;">Got any questions? Head over to my <a href="https://discord.gg/qFpUdxRpGU">Discord Support Server</a>.</h3><br/>
             </ol>
         </div>
         <div class="help_card">
             <ol>   
-            <h2>Use my pre-build bots</h2><br/>
-            <li>Click on "Get Started" on the bot you like to add to your server.</li><br/>
-            <li>When you're using the<a href="https://discord.com/api/oauth2/authorize?client_id=864583044098293811&permissions=0&scope=bot%20applications.commands" class="link"> AuditLog bot
-            </a> you have to type "-help" if you dont know how to use it.</li><br/>
-            <li>When you're using the standard<a href="https://discord.com/api/oauth2/authorize?client_id=864853463187587072&permissions=0&redirect_uri=http%3A%2F%2Fmusic-discord-bot.mrtacocat.repl.co%2Fapi%2Fcallback&scope=bot%20applications.commands" class="link"> Music Bot</a> you have to type ">help" if you dont know how to use it. <br/>
-            You can also change the command prefix ">" with this bot.</li><br/>
-            <li>If you have problems setting up the bots, go over to my <a href="https://discord.gg/qFpUdxRpGU" class="link">discord support server</a> and we'll fix your bot, so it will work!</li><br/>
+            <h2>AuditLog Bot - Prefix [-]</h2><br/>
+            <li><strong>Enable [number]</strong> - enable the logging for a module</li><br/>
+            <li><strong>Enable all</strong> - enable the logging for a module</li><br/>
+            <li><strong>Disable [number]</strong> - disable a logging module</li><br/>
+            <li><strong>Disable all</strong> - disable all logging modules</li><br/>
+            <li><strong>Reset</strong> - refreshes the bots entire cache for the server; everything set to default, with no logging channel</li><br/>
             </ol>
         </div>
     </div>
